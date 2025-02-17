@@ -3,6 +3,13 @@ import { Message } from './components/Message';
 import { Mother } from './components/Mother';
 import { ClickHandler } from './components/ClickHandler';
 import { ConditionalStat } from './components/ConditionStat';
+import { Namelist } from './components/Namelist';
+import { StyleSheet } from './components/StyleSheet';
+import { Inline } from './components/Inline';
+import './appStyles.css';
+import styles from './appStyles.module.css';
+import { Form } from './components/Form';
+import { PostList } from './components/PostList';
 
 
 import './App.css';
@@ -20,7 +27,14 @@ function App() {
         {/* <Message /> */}
         {/*   <Mother /> */}
           
-        <ConditionalStat />
+        {/* <ConditionalStat /> */}
+        {/* <Namelist /> */}
+        {/* <StyleSheet />
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1>
+        <Inline /> */}
+        <Form />
+        <PostList />
 
         
     </div>
